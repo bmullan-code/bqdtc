@@ -14,3 +14,8 @@ variable "zone" {
 variable "target_project" { 
   type = string
 }
+
+variable "terraform_service_account" {
+    type = string
+}
+

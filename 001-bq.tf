@@ -6,7 +6,6 @@ resource "google_project_service" "dts" {
   disable_on_destroy         = false
 }
 
-
 # Service Account
 resource "google_service_account" "bigquery_scheduled_queries" {
   account_id   = "bigquery-scheduled-queries"
